@@ -169,7 +169,7 @@ export default async function Page({
         <div className="footer-content">
           <div className="footer-brand">
             <div className="footer-logo">REVOLT</div>
-            <p className="footer-tagline">India's 1st AI Enabled Electric Motorcycle.</p>
+            <p className="footer-tagline">{dict.footer.tagline}</p>
             <div className="social-links">
               <a href="#" className="social-icon" aria-label="Facebook">
                 <FaFacebookF size={18} />
@@ -187,30 +187,23 @@ export default async function Page({
           </div>
           <div className="footer-links">
             <div className="footer-col">
-              <h4>Models</h4>
-              <a href="#">RV400</a>
-              <a href="#">RV400 BRZ</a>
-              <a href="#">RV1</a>
+              <h4>{dict.footer.cols.models.title}</h4>
+              {dict.footer.cols.models.links.map((link: string, i: number) => <a key={i} href="#">{link}</a>)}
             </div>
             <div className="footer-col">
-              <h4>Company</h4>
-              <a href="#">About Us</a>
-              <a href="#">Dealerships</a>
-              <a href="#">Investor Relations</a>
+              <h4>{dict.footer.cols.company.title}</h4>
+              {dict.footer.cols.company.links.map((link: string, i: number) => <a key={i} href="#">{link}</a>)}
             </div>
             <div className="footer-col">
-              <h4>Support</h4>
-              <a href="#">Contact Us</a>
-              <a href="#">FAQs</a>
-              <a href="#">Book a Test Ride</a>
+              <h4>{dict.footer.cols.support.title}</h4>
+              {dict.footer.cols.support.links.map((link: string, i: number) => <a key={i} href="#">{link}</a>)}
             </div>
           </div>
         </div>
         <div className="footer-bottom">
           <p>{dict.footer.copyright}</p>
           <div className="footer-legal">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
+            {dict.footer.legal.map((link: string, i: number) => <a key={i} href="#">{link}</a>)}
           </div>
         </div>
       </footer>

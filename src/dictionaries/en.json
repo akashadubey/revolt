@@ -46,7 +46,38 @@
     "download": "Download Now"
   },
   "footer": {
-    "copyright": "© 2026 Revolt Motors. All rights reserved."
+    "copyright": "© 2026 Revolt Motors. All rights reserved.",
+    "tagline": "India's 1st AI Enabled Electric Motorcycle.",
+    "cols": {
+      "models": {
+        "title": "Models",
+        "links": [
+          "RV400",
+          "RV400 BRZ",
+          "RV1"
+        ]
+      },
+      "company": {
+        "title": "Company",
+        "links": [
+          "About Us",
+          "Dealerships",
+          "Investor Relations"
+        ]
+      },
+      "support": {
+        "title": "Support",
+        "links": [
+          "Contact Us",
+          "FAQs",
+          "Book a Test Ride"
+        ]
+      }
+    },
+    "legal": [
+      "Privacy Policy",
+      "Terms of Service"
+    ]
   },
   "stats": {
     "driven": "10M+ Km Driven",
