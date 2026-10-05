@@ -19,12 +19,14 @@ export default async function Page({
       {/* Navigation */}
       <nav className="navbar">
         <div className="logo">REVOLT</div>
-        <div className="nav-links">
-          <a href="#motorcycles">{dict.nav.motorcycles}</a>
-          <a href="#about">{dict.nav.about}</a>
-          <a href="#dealerships">{dict.nav.dealerships}</a>
-          <a href="#media">{dict.nav.media}</a>
-          <a href="#investors">{dict.nav.investors}</a>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+          <div className="nav-links">
+            <a href="#motorcycles">{dict.nav.motorcycles}</a>
+            <a href="#about">{dict.nav.about}</a>
+            <a href="#dealerships">{dict.nav.dealerships}</a>
+            <a href="#media">{dict.nav.media}</a>
+            <a href="#investors">{dict.nav.investors}</a>
+          </div>
           <LanguageSwitcher currentLang={resolvedParams.lang} />
         </div>
       </nav>

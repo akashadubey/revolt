@@ -755,8 +755,103 @@ body {
   color: #aaa;
 }
 
+@media (max-width: 1024px) {
+  .hero-content h1 { font-size: 3.5rem; }
+  .stats-section { grid-template-columns: repeat(2, 1fr); gap: 2rem; }
+}
+
 @media (max-width: 768px) {
-  .hero-content h1 { font-size: 3rem; }
+  .hero-content h1 { font-size: 2.8rem; }
+  .hero-content p { font-size: 1.1rem; }
+  
+  .navbar { padding: 1rem 5%; }
+  
   .nav-links { display: none; }
-  .app-section { grid-template-columns: 1fr; }
+  
+  .products-section { padding: 4rem 5%; }
+  .section-title { font-size: 2rem; margin-bottom: 2.5rem; }
+  
+  .app-section { 
+    grid-template-columns: 1fr; 
+    gap: 3rem;
+    padding: 5rem 5%;
+    text-align: center;
+  }
+  
+  .app-features li {
+    justify-content: center;
+    text-align: left;
+  }
+  
+  .stats-section {
+    grid-template-columns: 1fr;
+    padding: 3rem 5%;
+  }
+  
+  .benefits-section {
+    padding: 4rem 5%;
+  }
+  
+  .calc-container {
+    padding: 2rem;
+  }
+  
+  .calc-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  
+  .newsletter-section {
+    padding: 5rem 5%;
+  }
+  
+  .newsletter-content {
+    padding: 2.5rem 1.5rem;
+  }
+  
+  .newsletter-form {
+    flex-direction: column;
+  }
+  
+  .footer-content {
+    flex-direction: column;
+    gap: 3rem;
+  }
+  
+  .footer-links {
+    gap: 2rem;
+    flex-direction: column;
+  }
+  
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+  }
+  
+  .footer-legal {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-content h1 { font-size: 2.2rem; }
+  .hero-content p { font-size: 1rem; margin-bottom: 2rem; }
+  
+  .cta-button, .outline-button { 
+    width: 100%; 
+    padding: 1rem; 
+  }
+  
+  .section-title { font-size: 1.8rem; }
+  
+  .app-content h2 { font-size: 2.2rem; }
+  
+  .stat-number { font-size: 2.8rem; }
+  
+  .calc-container { padding: 1.5rem; }
+  
+  .calc-group label { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
+  .calc-group .val { align-self: flex-start; }
 }
