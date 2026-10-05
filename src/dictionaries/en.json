@@ -1,0 +1,87 @@
+{
+  "nav": {
+    "motorcycles": "Motorcycles",
+    "dealerships": "Dealerships",
+    "about": "About Us",
+    "media": "Media",
+    "investors": "Investor Relations"
+  },
+  "hero": {
+    "title": "Join the Revolution",
+    "subtitle": "India's 1st AI Enabled Electric Motorcycle",
+    "cta_button": "Book a Test Ride"
+  },
+  "products": {
+    "title": "Our Models",
+    "rv400": {
+      "name": "RV400",
+      "tagline": "The Future of Mobility",
+      "range": "150 km Range",
+      "speed": "85 km/h Top Speed",
+      "battery": "3.24 kWh Battery"
+    },
+    "rv400_brz": {
+      "name": "RV400 BRZ",
+      "tagline": "Unmatched Power",
+      "range": "150 km Range",
+      "speed": "85 km/h Top Speed",
+      "battery": "3.24 kWh Battery"
+    },
+    "rv1": {
+      "name": "RV1",
+      "tagline": "Commuter Redefined",
+      "range": "100 km Range",
+      "speed": "70 km/h Top Speed",
+      "battery": "2.2 kWh Battery"
+    }
+  },
+  "app": {
+    "title": "MyRevolt App",
+    "subtitle": "Stay connected to your bike 24/7.",
+    "features": [
+      "Geo-fencing",
+      "Battery Status",
+      "Ride History"
+    ],
+    "download": "Download Now"
+  },
+  "footer": {
+    "copyright": "© 2026 Revolt Motors. All rights reserved."
+  },
+  "stats": {
+    "driven": "10M+ Km Driven",
+    "customers": "50k+ Customers",
+    "electric": "100% Electric"
+  },
+  "benefits": {
+    "title": "Why Choose Revolt",
+    "items": [
+      {
+        "title": "Portable Battery",
+        "desc": "Charge anywhere just like a mobile phone."
+      },
+      {
+        "title": "Artificial Intelligence",
+        "desc": "Smart diagnostics and real-time ride data."
+      },
+      {
+        "title": "CBS Braking",
+        "desc": "Advanced safety system for Indian roads."
+      }
+    ]
+  },
+  "newsletter": {
+    "title": "Stay Updated",
+    "subtitle": "Join our mailing list for the latest news.",
+    "placeholder": "Enter your email",
+    "button": "Subscribe"
+  },
+  "calculator": {
+    "title": "Calculate Your Savings",
+    "daily_commute": "Daily Commute (km)",
+    "petrol_price": "Petrol Price (₹/L)",
+    "mileage": "Current Bike Mileage (km/L)",
+    "monthly_savings": "Your Monthly Savings",
+    "yearly_savings": "Your Yearly Savings"
+  }
+}
